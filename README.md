@@ -21,7 +21,11 @@ Os testes agem como forma de garantir que o produto, neste caso o software, comp
 
 O ambiente em que os teste são realizados condiciona os resultados obtidos. A execução dos testes faz-se habitualmente num **ambiente de operação hipotético que difere do ambiente de produção real**.
 Sucede que nem estes dois ambientes são exatamente iguais, nem o resultado obtido num deles é exatamente igual.
-![Os diferentes ambientes percorridos pelo produto de software ao longo do processo de desenvolvimento](ambientes-teste.png)
+Os diferentes ambientes percorridos pelo produto de software ao longo do processo de desenvolvimento:
+* Ambiente desenvolvimento.
+* Ambiente de testes.
+* Ambiente de pré-produção.
+* Ambiente de produção.
 
 Antes da execução de qualquer teste, o tester deve criar um plano de teste juntamente com o gestor do projeto ou com a equipa de desenvolvimento. Mas antes isso é preciso saber o critério de aceitação ou *acceptance criteria*.
 Critério de aceitação trata-se de um conjunto de regras formais de como uma funcionalidade deve comportar e normalmente são definidas pelo dono de projeto.
