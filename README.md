@@ -17,14 +17,10 @@ Conteúdos
 ---
 Podemos resumir o processo de desenvolvimento clássico de um produto da seguinte forma: **idea -> feature -> development -> testing -> release**.
 Os testes agem como forma de garantir que o produto, neste caso o software, comporta ou funcione conforme as especificações definidas durante a fase de análise e desenho.
-
 ![funcionamente de execução de um teste](testing.png)
-
 O ambiente em que os teste são realizados condiciona os resultados obtidos. A execução dos testes faz-se habitualmente num **ambiente de operação hipotético que difere do ambiente de produção real**.
 Sucede que nem estes dois ambientes são exatamente iguais, nem o resultado obtido num deles é exatamente igual.
-
 ![Os diferentes ambientes percorridos pelo produto de software ao longo do processo de desenvolvimento](ambientes-teste.png)
-
 Antes da execução de qualquer teste, o tester deve criar um plano de teste juntamente com o gestor do projeto ou com a equipa de desenvolvimento. Mas antes isso é preciso saber o critério de aceitação ou *acceptance criteria*.
 Critério de aceitação trata-se de um conjunto de regras formais de como uma funcionalidade deve comportar e normalmente são definidas pelo dono de projeto.
 O plano de teste podem ser criados da seguinte forma:
@@ -43,7 +39,6 @@ Os test cases podem ser criados da seguinte forma:
 * Pré-requisitos - ex. O utilizador deve estar com a sessão iniciada e estar na página de registo de cliente;
 * Passos - ex. Click na caixa de texto “Título”. Escolher a opção  “Sra.”. Resultado Esperado ex. “Sra.” encontra-se escrito na caixa de texto.
 * Desmantelar - ex. Eliminar o cliente com o nome “Isabela Souza Costa”.
-
 Test cases por ser visto de duas formas:
 *Happy paths* -> o tester testa com o fim de atingir o resultado desejado/esperado;
 *Edgy cases* -> o tester testa com o fim de explorar a aplicação encontrando ou não falhas.
